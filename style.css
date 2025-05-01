@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
   font-family: 'Lato', sans-serif;
+  /* border: 1px dotted red; */
 }
 
 html,
@@ -10,3 +11,44 @@ body {
 }
 
 /* Add styles here! */
+header {
+  padding: 8px;
+}
+
+main {
+  background-color: grey;
+  padding: 40px 0;
+  border-top: 8px solid lightgray;
+}
+
+strong {
+  color: teal;
+}
+
+.intro-chunk {
+  max-width: 350px;
+  margin: 60px 0;
+  padding: 0 16px;
+}
+
+.max-width-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: white;
+  padding: 16px;
+  border-bottom: 8px solid lightgray;
+}
+
+.indented-heading {
+  width: fit-content;
+  margin-left: -24px;
+  background-color: rgb(254, 207, 40);
+  padding: 8px 24px;
+  font-size: 1.25rem;
+  border-bottom: 6px solid rgb(196, 160, 31);
+  margin-top: 0px;
+}
+
